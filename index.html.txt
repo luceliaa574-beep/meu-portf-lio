@@ -1,0 +1,39 @@
+<!DOCTYPEhtml>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+<title>Meu Portfólio</title>
+<link rel="stylesheet"href="style.css">
+</head>
+<body>
+<header>
+<h1>Meu Portfólio</h1>
+<nav>
+<ul>
+<li><a href="#sobre">Sobre Mim</a></
+li>
+<li><ahref="#projetos">Meus Projetos</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="sobre">
+<h2>Sobre Mim</h2>
+<p>Olá!sou [Seu Nome],um
+desenvolvedor apaixonado por tecnologia.</p>
+</section>
+<section id="projetos">
+<h2>Meus Projetos</h2>
+<div id="projetos-container">
+<!-projetos vão aqui->
+</div>
+</section>
+</main>
+<footer>
+<p>&copy;2025 Seu Nome.Todos os direitos reservados.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
