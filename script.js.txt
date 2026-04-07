@@ -1,0 +1,40 @@
+const projetos=[
+{
+ titulo:"calculadora",
+ descricão:"Uma calculadora funcional feita 
+com HTML,CSS E JavaScript."
+},
+{
+  titulo:"Lista de Tarefas,"
+   descricão:"App para adicionar e remover
+  tarefas do dia a dia."
+ },
+ {
+   titulo:Portfólio,"
+   descricão:"Este próprio portfólio que você
+ está vendo agora!"
+ }
+];
+
+function carregarProjetos(){
+  const container=
+  document.getElementByid('projetos-container');
+  projetos.forEach(projeto=>{
+  const card=
+ document.createElement('div');
+    card className='projeto-card';
+    card innerHTML=
+    <h3>$(projeto.titulo)</h3>
+    <p>$(projeto.descricão)<p>
+;     
+  
+container.appendChild(card);
+});
+}
+ document.addEventListener('DOMContentLoad
+ ed',carregarProjetos);
+
+
+
+
+  
