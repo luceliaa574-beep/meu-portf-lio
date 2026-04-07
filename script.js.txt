@@ -1,40 +1,39 @@
-const projetos=[
-{
- titulo:"calculadora",
- descricão:"Uma calculadora funcional feita 
-com HTML,CSS E JavaScript."
-},
-{
-  titulo:"Lista de Tarefas,"
-   descricão:"App para adicionar e remover
-  tarefas do dia a dia."
- },
- {
-   titulo:Portfólio,"
-   descricão:"Este próprio portfólio que você
- está vendo agora!"
- }
-];
-
-function carregarProjetos(){
-  const container=
-  document.getElementByid('projetos-container');
-  projetos.forEach(projeto=>{
-  const card=
- document.createElement('div');
-    card className='projeto-card';
-    card innerHTML=
-    <h3>$(projeto.titulo)</h3>
-    <p>$(projeto.descricão)<p>
-;     
-  
-container.appendChild(card);
-});
+*{
+  margin:0;
+padding:0;
+box-sizing:border-box;
 }
- document.addEventListener('DOMContentLoad
- ed',carregarProjetos);
+ body{
+  font-family:Arial,sans-serif;
+background-color:#fofofo;
+ color:#333;
+  line-height:1.6;
+}
+ header{
+  backgroud-color:#222;
+  color:white;
+  padding:1rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  }
+  header h1 {
+    font-size:1.8rem;
+}
 
 
+ nav ul{
+     list-style: none;
+     display:flex;
+     gap:1.5rem;
 
-
-  
+}
+  nav a {
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+  }
+   nav a:hover{
+        color:#00a8ff;
+  }
